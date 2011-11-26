@@ -1,0 +1,37 @@
+{
+  "id":"nl.sinds1984.pong",
+  "version":"0.5.0",
+  "title":"Pong",
+  "main":"index.html",
+  "icon":"images/pong_logo-normal.png",
+  "smallicon": "images/pong_logo-small.png",
+  "miniicon":"images/pong_logo-mini.png",
+  "splashicon":"images/pong_logo-big.png",
+  "type":"web",
+  "theme":"light",
+  "noWindow": false,
+  "noDeprecatedStyles": true,
+  "vendor":"Sinds1984",
+  "vendorurl":"http://www.sinds1984.nl/",
+  "copyright": "© CC-BY-NC 2010-2011, Sinds1984.nl",
+  "support": {
+      "url": "http://www.sinds1984.nl",
+      "email": {
+          "address": "webos@sinds1984.nl",
+          "subject": "Support"
+      },
+      "resources": [
+          {
+              "type": "scene",
+              "label": "Help &amp; Feedback",
+              "sceneName": "help"
+          },
+          {
+              "type": "web",
+              "label": "Support website",
+              "url": "http://www.sinds1984.nl/"
+          }
+      ]
+  },
+  "uiRevision": 1
+}

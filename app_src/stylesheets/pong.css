@@ -1,0 +1,89 @@
+body.pong {}
+
+#splash_title {
+    margin: 20pt;
+    text-align: center;
+    color: #000000;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+#start_game_button {
+    margin: 15px 0px;
+}
+
+.palm-body-text {
+    color: #000000;
+}
+
+.pong-row-instructions .title {
+  font-size: 14pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+.feedback-row-explanation .title {
+  font-size: 12pt;
+}
+
+.feedback-response-text {
+    margin: 15pt;
+    padding-left: 40px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.feedback-success {
+    background: url(../images/feedback-positive.png) 0 0 no-repeat;
+    min-height: 30px;
+}
+
+.feedback-warning {
+    background: url(../images/feedback-warning.png) 0 0 no-repeat;
+    min-height: 30px;
+}
+
+.text-small {
+    margin-top: 20pt;
+    text-align: justify;
+    font-size: 10pt;
+    color: #FFEEDD;
+}
+
+.text-small a, .text-small a:link, .text-small a:visited {
+    color: #FFFFFF;
+}
+
+#feedback_text_group {
+    background-color: #FFFFFF;
+}
+
+.cssMainCanvas {
+   display : none;
+   position : absolute;
+   left : 0px;
+   top : 0px;
+}
+.cssMainCanvas.pre3 {
+    top: 28px;
+}
+
+/* Overall iconography */
+
+.palm-account-icon.pong {
+	background: url(../images/pong_logo-small.png) center center no-repeat;
+}
+.palm-account-icon.pong.medium {
+	background: url(../images/pong_logo-medium.png) center center no-repeat;
+}
+
+/* Colour icons */
+
+.palm-popup-icon.white  { background-image: url(../images/day-event-white.png); }
+.palm-popup-icon.black  { background-image: url(../images/day-event-black.png); }
+.palm-popup-icon.yellow { background-image: url(../images/day-event-yellow.png); }
+.palm-popup-icon.blue   { background-image: url(../images/day-event-blue.png); }
+.palm-popup-icon.green  { background-image: url(../images/day-event-green.png); }
+.palm-popup-icon.orange  { background-image: url(../images/day-event-orange.png); }
+.palm-popup-icon.pink   { background-image: url(../images/day-event-pink.png); }
+.palm-popup-icon.red   { background-image: url(../images/day-event-red.png); }

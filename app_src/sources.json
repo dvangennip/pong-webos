@@ -1,0 +1,17 @@
+[
+    {
+        "source": "app/assistants/stage-assistant.js"
+    },
+    {
+	"source": "app/assistants/help-assistant.js",
+	"scenes": "help"
+    },
+    {
+	"source": "app/assistants/splash-assistant.js",
+	"scenes": "splash"
+    },
+    {
+	"source": "app/assistants/game-assistant.js",
+	"scenes": "game"
+    }
+]
